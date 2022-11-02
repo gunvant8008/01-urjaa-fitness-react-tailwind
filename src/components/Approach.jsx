@@ -2,7 +2,7 @@ import React from "react"
 import { GrCaretDown } from "react-icons/gr"
 const Approach = () => {
   return (
-    <div>
+    <div id="approach">
       <div className="flex flex-col items-center max-w-[70vw] gap-10 m-auto justify-center pt-10">
         <h1 className=" md:text-5xl text-3xl font-bold">Our Approach</h1>
 

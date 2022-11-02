@@ -7,7 +7,7 @@ import program1time from "../assets/programs/program1time.png"
 
 const Programs = () => {
   return (
-    <div className="container max-w-[70vw] m-auto md:mt-10 flex flex-col items-center justify-center">
+    <div id="programs" className="container max-w-[70vw] m-auto md:mt-10 flex flex-col items-center justify-center text-center">
       <h1 className=" md:text-5xl pt-10 text-3xl font-bold">OUR ONLINE TRANSFORMATION PROGRAMS</h1>
       <p className="md:text-2xl text-xl font-thin text-center text-gray-700">Start your fitness journey, Let us help you achieve your goals.</p>
       <div className="grid gap-8 lg:grid-cols-3 md:grid-cols-2 grid-cols-2  max-w-[70vw] py-10">

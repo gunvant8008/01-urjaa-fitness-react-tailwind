@@ -13,22 +13,22 @@ const Features = () => {
         <div className="flex-1  flex flex-col items-center justify-center  gap-5 text-center">
           <ul className="flex flex-col text-base md:text-xl gap-5 ">
             <li className="flex border-2 p-4 gap-4  shadow-xl shadow-gray-400">
-              <FaCheckDouble /> Customised diet & workout plans
+              <FaCheckDouble /> Customised diet & workout plan
             </li>
             <li className="flex border-2 p-4 gap-4 shadow-xl shadow-gray-400">
-              <FaCheckDouble /> Customised diet & workout plans
+              <FaCheckDouble /> Daily food tracking
             </li>
             <li className="flex border-2 p-4 gap-4 shadow-xl shadow-gray-400">
-              <FaCheckDouble /> Customised diet & workout plans
+              <FaCheckDouble /> 24x7 Support
             </li>
             <li className="flex border-2 p-4 gap-4 shadow-xl shadow-gray-400">
-              <FaCheckDouble /> Customised diet & workout plans
+              <FaCheckDouble /> Healty recipe books
             </li>
             <li className="flex border-2 p-4 gap-4 shadow-xl shadow-gray-400">
-              <FaCheckDouble /> Customised diet & workout plans
+              <FaCheckDouble /> Exclusive Educational Content
             </li>
             <li className="flex border-2 p-4 gap-4 shadow-xl shadow-gray-400">
-              <FaCheckDouble /> Customised diet & workout plans
+              <FaCheckDouble /> Discipline & Consistency Check
             </li>
           </ul>
         </div>
