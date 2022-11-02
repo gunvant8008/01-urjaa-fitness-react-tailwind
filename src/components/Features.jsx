@@ -9,7 +9,7 @@ const Features = () => {
         <h1 className=" md:text-5xl text-3xl font-bold">Only program you will ever need to get independent</h1>
         <p className="md:text-3xl text-2xl font-thin text-gray-700">Get independent on Exercise Floor & Learn to build your own meal plan</p>
       </div>
-      <div className="flex flex-col-reverse lg:flex md:gap-20 gap-8 py-20 lg:flex-row-reverse max-w-[70vw] ">
+      <div className="flex flex-col-reverse items-center lg:flex md:gap-20 gap-8 py-20 lg:flex-row-reverse max-w-[70vw] ">
         <div className="flex-1  flex flex-col items-center justify-center  gap-5 text-center">
           <ul className="flex flex-col text-base md:text-xl gap-5 ">
             <li className="flex border-2 p-4 gap-4  shadow-xl shadow-gray-400">
@@ -32,7 +32,7 @@ const Features = () => {
             </li>
           </ul>
         </div>
-        <div className="flex-1 shadow-xl shadow-gray-300">
+        <div className="flex-1 ">
           <img src={mainImg} alt="" />
         </div>
       </div>
