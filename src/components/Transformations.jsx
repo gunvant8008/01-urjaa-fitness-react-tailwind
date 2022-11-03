@@ -19,7 +19,7 @@ import img19 from "../assets/images/19.png"
 
 const Transformations = () => {
   return (
-    <div id="results" className="container max-w-[70vw] m-auto md:mt-10 flex flex-col items-center justify-center">
+    <div id="results" className="container max-w-[70vw] m-auto md:mt-10 flex flex-col gap-4 items-center justify-center">
       <h1 className=" md:text-5xl pt-10 text-3xl font-bold">TRANSFORMATIONS</h1>
       <p className="md:text-2xl text-xl font-thin text-center text-gray-700">We make sure that our clients are educated in such a way that they are able to achieve there fitness golas and can maintain them for the whole life.</p>
       <div className="grid gap-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-2  max-w-[70vw] py-10">

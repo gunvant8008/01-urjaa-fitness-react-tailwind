@@ -1,5 +1,5 @@
 import React from "react"
-import mainImg from "../assets/images/2.png"
+import mainImg from "../assets/images/myimg2.png"
 import { FaCheckDouble } from "react-icons/fa"
 
 const Features = () => {

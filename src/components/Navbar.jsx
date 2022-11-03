@@ -8,7 +8,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
 
   return (
-    <nav className="fixed w-full bg-gray-100 backdrop-filter backdrop-blur-lg bg-opacity-40 border-b border-gray-200  ">
+    <nav className="fixed w-full bg-gray-100 backdrop-filter backdrop-blur-lg bg-opacity-40 border-b border-gray-200 z-20  ">
       <div className="relative flex m-auto max-w-[70vw] justify-between items-center py-0 p-3">
         {/* Left\ */}
         <div className=" w-[90px]">

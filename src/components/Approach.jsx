@@ -1,5 +1,6 @@
 import React from "react"
 import { GrCaretDown } from "react-icons/gr"
+import { PopupButton } from "@typeform/embed-react"
 const Approach = () => {
   return (
     <div id="approach">
@@ -22,7 +23,9 @@ const Approach = () => {
         </div>
         <GrCaretDown size={50} />
         <p className="shadow-xl shadow-gray-400 p-5 rounded-md">The result: You build your dream body... and a happier life!</p>
-        <button className="btn-primary py-4 ">Start Now</button>
+        <PopupButton id="lYnpNrDL" style={{ fontSize: 20 }} className=" text-white bg-black px-10 py-4 rounded-xl hover:bg-yellow-500 hover:text-black transition-all ease-linear duration-100">
+          Start Now
+        </PopupButton>
       </div>
     </div>
   )
