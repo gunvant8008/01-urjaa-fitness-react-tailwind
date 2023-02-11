@@ -8,7 +8,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
 
   return (
-    <nav className="fixed w-full bg-gray-100 backdrop-filter backdrop-blur-lg bg-opacity-40 border-b border-gray-200 z-20  ">
+    <nav className="fixed w-full bg-gray-100 backdrop-filter backdrop-blur-lg bg-opacity-40 border-b border-gray-200 z-10  ">
       <div className="relative flex m-auto max-w-[70vw] justify-between items-center py-0 p-3">
         {/* Left\ */}
         <div className=" w-[90px]">
@@ -17,31 +17,40 @@ const Navbar = () => {
 
         {/* Right */}
         <div className="">
-          <ul className="hidden md:flex font-medium  gap-7   ">
-            <li>
+          <ul className="hidden md:flex font-bold  gap-7 z-20 ">
+            <li className="hover:scale-115 hover:bg-black hover:text-white p-1">
               <a href="/#home">Home</a>
             </li>
-            <li>
+            <li className="hover:scale-115 hover:bg-black hover:text-white p-1">
               <a href="/#results">Results</a>
             </li>
-            <li>
+            <li className="hover:scale-115 hover:bg-black hover:text-white p-1">
               <a href="/#approach">Approach</a>
             </li>
-            <li>
+            <li className="hover:scale-115 hover:bg-black hover:text-white p-1">
               <a href="/#programs">Programs</a>
             </li>
-            <li>
+            <li className="hover:scale-115 hover:bg-black hover:text-white p-1">
               <a href="/#contact">Contact</a>
             </li>
           </ul>
-          <div onClick={() => setNav(!nav)} className="flex md:hidden cursor-pointer">
+          <div
+            onClick={() => setNav(!nav)}
+            className="flex md:hidden cursor-pointer"
+          >
             {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
           </div>
         </div>
       </div>
       {/* Mobile Menu  */}
       <div className="">
-        <div className={nav ? "absolute shadow-inner shadow-gray-50  w-1/2 h-[100vh] transition-all ease-linear duration-00 top-0 left-0  flex flex-col md:hidden items-center py-20 bg-gray-500 p-5" : "absolute w-1/2 h-[100vh]  transition-all ease-linear duration-400 top-0 -left-1/2  flex flex-col md:hidden items-center bg-gray-500 p-5"}>
+        <div
+          className={
+            nav
+              ? "absolute shadow-inner shadow-gray-50  w-1/2 h-[100vh] transition-all ease-linear duration-00 top-0 left-0  flex flex-col md:hidden items-center py-20 bg-gray-500 p-5"
+              : "absolute w-1/2 h-[100vh]  transition-all ease-linear duration-400 top-0 -left-1/2  flex flex-col md:hidden items-center bg-gray-500 p-5"
+          }
+        >
           {/* Top\ */}
           <div className=" w-[90px]">
             <img src={logo2} alt="" />

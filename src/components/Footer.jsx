@@ -17,23 +17,39 @@ const Footer = () => {
         </div>
         <div>
           <div className="flex gap-8">
-            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gunvant_urjaa/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/gunvant_urjaa/"
+            >
               <BsInstagram size={30} />{" "}
             </a>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UC4jTNpan6O5F_CeO_xP5_jw">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.youtube.com/channel/UC4jTNpan6O5F_CeO_xP5_jw"
+            >
               <BsYoutube size={35} />{" "}
             </a>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/GunvantSharmaFitness">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.facebook.com/GunvantSharmaFitness"
+            >
               <BsFacebook size={30} />{" "}
             </a>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/gunvant-sharma-006057b2/">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/gunvant-sharma-006057b2/"
+            >
               <BsLinkedin size={28} />{" "}
             </a>
           </div>
         </div>
       </div>
       <div className="text-center bg-gray-900 p-2 text-white">
-        <p className="text-sm">Copyright &copy; 2022 All Rights Reserved.</p>
+        <p className="text-sm">Copyright &copy; 2023 All Rights Reserved.</p>
       </div>
     </footer>
   )
